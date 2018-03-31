@@ -28,9 +28,7 @@ public class TacticsOneActivity extends BaseToolBarActivity {
     }
 
     @Override
-    protected void initWidget() {
-
-    }
+    protected void initWidget() {}
 
     @OnClick({R.id.tv_styleone, R.id.tv_styletwo, R.id.tv_stylethree,R.id.tv_stylefour})
     public void onViewClicked(View view) {
