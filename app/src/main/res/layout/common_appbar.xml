@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_appbar_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/maincolor"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/common_appbar_rl"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp">
+
+
+        <ImageView
+            android:id="@+id/common_appbar_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="14dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="22dp"
+            android:paddingTop="14dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            android:src="@mipmap/back_white"/>
+
+        <TextView
+            android:id="@+id/common_appbar_center_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxEms="12"
+            android:text="主页"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/common_appbar_right_tv"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:text="更多"
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/common_appbar_right_iv"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/add_white"/>
+
+    </RelativeLayout>
+</LinearLayout>
