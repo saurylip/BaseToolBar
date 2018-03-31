@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".base.BaseToolBarActivity" />
         <activity android:name=".TacticsOneActivity" android:label="Tactics1"/>
-        <activity android:name=".TacticsTwoActivity"/>
+        <activity android:name=".TacticsTwoActivity" android:theme="@style/AppTheme"/>
     </application>
 
 </manifest>
