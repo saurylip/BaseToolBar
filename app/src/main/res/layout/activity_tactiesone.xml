@@ -7,12 +7,14 @@
         android:id="@+id/tv_styleone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="style1--- 没有返回按钮(一般用在1级页面)"/>
 
     <Button
         android:id="@+id/tv_styletwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="style2 --- 右侧是文字按钮"/>
 
 
@@ -20,11 +22,13 @@
         android:id="@+id/tv_stylethree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="style3 --- 右侧是图片偏按钮"/>
 
     <Button
         android:id="@+id/tv_stylefour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="style3 --- 中间是左右可选按钮"/>
 </LinearLayout>

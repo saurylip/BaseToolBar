@@ -56,7 +56,7 @@ public class TacticsOneActivity extends BaseToolBarActivity {
                 setCenterRadioGroupEnable("进行中", "已结束", new RadioGroup.OnCheckedChangeListener() {
                     @Override
                     public void onCheckedChanged(RadioGroup group, int checkedId) {
-                        ToastUtil.showToast(group.toString());
+                        // TODO: 2018/4/3 do your thing
                     }
                 });
                 break;

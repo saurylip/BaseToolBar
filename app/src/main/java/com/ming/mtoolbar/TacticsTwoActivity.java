@@ -29,11 +29,6 @@ public class TacticsTwoActivity extends BaseAppBarActivity {
     }
 
     @Override
-    protected void onAppBarBackClick() {
-        finish();
-    }
-
-    @Override
     protected void onAppBarRightClick() {
         ToastUtil.showToast("更多");
     }

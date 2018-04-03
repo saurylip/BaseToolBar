@@ -6,10 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar</item>
-        <item name="actionBarDivider">@null</item>
     </style>
-
 
     <style name="MyNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:selectableItemBackground">@null</item>
