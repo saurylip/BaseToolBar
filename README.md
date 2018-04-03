@@ -1,6 +1,6 @@
 # BaseToolBar
 ToolBar
-掘金文章分析链接：https://juejin.im/post/5abf2615f265da2374111a31
+掘金文章分析链接：https://juejin.im/post/5ac1a251f265da2397070463
 
 一个小技巧:
 * Activity跳转时候,可以这么写,更舒服:
